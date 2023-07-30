@@ -1,0 +1,139 @@
+.contacts__container{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.contacts__container h3{
+    padding-bottom: 1rem ;
+}
+
+
+
+
+/*icons*/
+.contacts__container a{
+    display: block;
+    padding: .3rem 1.5rem;
+    font-size: 1.1rem;
+    position: relative;
+    text-decoration: none;
+    color: var(--color__gray);
+}
+.contacts__container a:hover{
+    text-decoration: underline;
+}
+.contacts__container a::before{
+    content: '';
+    width: 1.1rem;
+    height: 1.1rem;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    background-size: cover;
+}
+.vodafone::before{
+    background-image: url(../../assets/vodafone.png);
+}
+.kyivstar::before{
+    background-image: url(../../assets/kyivstar.svg);
+    top: 6px;
+}
+.life::before{
+    background-image: url(../../assets/life.png);
+}
+.viber::before{
+    background-image: url(../../assets/viber.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.telegram::before{
+    background-image: url(../../assets/telegram.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.instargram::before{
+    background-image: url(../../assets/instagram.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.mail::before{
+    background-image: url(../../assets/mail.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+
+
+.img__container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.img__container>.img:nth-child(1){
+    background-image: url(../../assets/magazin/magazin1.jpg);
+}
+.img__container>.img:nth-child(2){
+    background-image: url(../../assets/magazin/magazin2.jpg);
+}
+.img__container>.img:nth-child(3){
+    background-image: url(../../assets/magazin/magazin3.jpg);
+}
+.img__container>.img:nth-child(4){
+    background-image: url(../../assets/magazin/magazin4.jpg);
+}
+.img__container>.img:nth-child(5){
+    background-image: url(../../assets/magazin/magazin5.jpg);
+}
+
+.img{
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex ease 1s;
+}
+.img:hover{
+    flex: 5;
+}
+
+
+
+.maps__container h3{
+    padding: 1rem;
+}
+
+.maps__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+
+@media screen and (max-width: 768px){
+    .img__container{
+        flex-direction: column;
+        height: 700px;
+    }
+    .maps__container{
+        height: 300px;
+    }
+    .contacts__container{
+        padding: 1rem 0;
+    }
+   
+
+}
+@media screen and (max-width: 650px){
+    .contacts__container{
+        flex-direction: column;
+    }
+   
+
+}

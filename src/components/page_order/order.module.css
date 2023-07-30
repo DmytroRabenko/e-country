@@ -1,0 +1,43 @@
+.order{
+    color: var(--color__gray);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 0 3rem;
+}
+
+.basket_content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.pcBasket>div>div, .pcBasket>div>button{
+    display: none;
+}
+.mobBasket>div>button{
+    display: none;
+}
+.mobBasket{
+    display: none;
+}
+@media screen and (max-width: 992px){
+    .order{
+        width: 90%;   
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .pcBasket{
+        display: none;
+    }
+    .mobBasket{
+        display: block;
+    }
+}
+@media screen and (max-width: 480px){
+    .order{   
+        width: 100%;
+    }
+}

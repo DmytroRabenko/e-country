@@ -1,0 +1,88 @@
+.button{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--color__lightgreen);
+    padding-left: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    box-shadow: 0 0 15px var(--color__lightgray);
+    border: none;
+}
+.button svg{
+    margin-right: .5rem;
+
+}
+
+.catalog_container{
+    padding: .5rem 0 .5rem .5rem;
+    box-shadow: 0 0 15px var(--color__lightgray);
+    background-color: var(--color__white);
+    z-index: 100;
+    position: relative;
+    
+}
+.catalog_container>ul{
+    position: relative;
+    background-color: var(--color__white);
+    z-index: 100;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.catalog_container a{
+    text-decoration: none;
+    color: var(--color__gray);
+}
+
+.catalog_container li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.catalog_container li {
+    padding-right: .5rem;
+}
+
+.list_item svg{
+    transition: all linear 0.2s;
+    color: var(--color__lightgray);
+}
+
+.list_item:hover>a>svg, .submenu_list_item:hover>a>svg{
+    color: var(--color__lightgreen);
+    transform: rotate(-90deg);
+}
+
+.list_item:hover>a, .submenu_list_item:hover>a, .submenu_list_item2:hover>a{
+    background-color: var(--color__lightgray);
+    border-radius: .5rem;
+}
+
+.list_item:hover .submenu, .submenu_list_item:hover .submenu2{
+    display: block;
+}
+
+
+.submenu, .submenu2{
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    margin-left: 100%;
+    background-color: #fff;
+    min-height: 100%;
+    padding: .5rem 0 .5rem .5rem;
+    box-shadow: 0 0 15px var(--color__lightgray);
+}
+.submenu2{
+    margin-left: 97%
+}
+
+.submenu_list_item:hover>a{
+    background-color: var(--color__lightgray);
+}
+

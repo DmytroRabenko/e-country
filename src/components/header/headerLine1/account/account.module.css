@@ -1,0 +1,33 @@
+.account{
+    margin-left: .5rem;
+    padding: .2rem 1rem;
+    border-radius: .5rem; 
+    border: none;
+    cursor: pointer;
+    background-color: var(--color__lightgreen);
+    transition: all linear .2s;
+}
+.account svg{
+    margin-right: .5rem;
+}
+.account:hover{
+    background-color: var(--color__gray);
+    color: var(--color__white);
+    box-shadow: 0 0 10px var(--color__lightgray);
+}
+
+
+
+@media screen and (max-width: 992px){
+  
+}
+@media screen and (max-width: 768px){
+    .account{   
+        padding: .1rem .5rem;
+        border-radius: .5rem;
+        margin: .1rem; 
+    }
+}
+@media screen and (max-width: 480px){
+ 
+}

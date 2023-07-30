@@ -1,0 +1,51 @@
+
+
+.request__quantity{
+    padding-left: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+.request__highcontainer{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--color__lightgray);
+    border-radius: 1rem;
+}
+
+.request__container{
+    margin: 1rem;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.comment__container{
+    color: var(--color__gray);
+    padding: .5rem;
+    border-bottom: 1px solid var(--color__lightgray);
+}
+.comment__container:nth-last-child(){
+    border-bottom: none;
+}
+
+.comment__container span{
+    font-weight: 500;
+}
+
+
+.comment__container .comment__date{
+    font-weight: 400;
+    color: var(--color__gray);
+}
+
+
+.noReviews{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--color__gray);
+    margin-left: 1rem;
+}

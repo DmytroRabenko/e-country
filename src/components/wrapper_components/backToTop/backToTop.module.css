@@ -1,0 +1,28 @@
+.button{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 1rem;
+    left: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    border: none;
+    color: var(--color__white);
+    background-color: var(--color__lightgreen);
+    font-size: 2rem;
+    box-shadow: 0 0 10px var(--color__white);
+
+    transform: translateY(+100%);
+    animation-name: animation__1;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes animation__1 {
+0% {transform: translateY(+100%);}
+100%{transform: translateY(0%);}
+}

@@ -1,0 +1,81 @@
+
+.product{
+    font-size: 1.2rem;
+    margin: 0 .5rem;
+  }
+
+  .product__name a{
+    color: var(--color__gray);
+    text-decoration: none;
+  }
+  .product__name a:hover{
+    text-decoration: underline;
+  }
+  .product__img{
+      width: 5rem;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+  .product__img img{
+    width: auto;
+    max-width: 80%;  
+  }
+  .product__price{
+       width: 11rem;
+       text-align: center;
+  }
+  
+  .product__count{
+      padding: 0 .5rem;
+  }
+  .product__count> div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .2rem 1rem;
+      border: 1px solid var(--color__lightgray);
+      border-radius: 1.5rem;
+  }
+  .product__count>div>span{
+      padding: 0 .8rem;
+  }
+  .product__count>div> button{
+      width: 1.7rem;
+      height: 1.7rem;
+      line-height: .8;
+      border-radius: 50%;
+      border: none;
+      background-color: inherit;
+      transition: all linear .2s;
+      font-size: 1.5rem;
+  }
+  .product__count>div> button:hover{
+      color: var(--color__white);
+      background-color: var(--color__gray);
+  }
+  
+  .product__delate{
+    padding: .5rem;
+}
+.product__delate button{
+    padding: .2rem .5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: inherit;
+    transition: all linear .2s;
+    color: brown;
+}
+.product__delate button:hover{
+    color: var(--color__white);
+    background-color: var(--color__gray);
+}  
+
+
+@media screen and (max-width: 480px){
+    .product{
+        display: none;
+    }
+}

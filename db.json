@@ -1,0 +1,859 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A24",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245flgvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245flgvsek-536251647?$1300_1038_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245flgvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245flgvsek-536251630?$684_547_PNG$"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 3,
+      "description": "Екран (6.5, Super AMOLED, 2340x1080) / Mediatek Helio G99 (2 x 2.6 ГГц + 6 x 2.0 ГГц) / основна потрійна камера: 50 Мп + 5 Мп + 2 Мп, фронтальна камера: 13 Мп / RAM2 ГБ вбудованої пам'яті + microSD (до 1 ТБ) / 3G / LTE / GPS / ГЛОНАСС / BDS / підтримка 2х SIM-карток (Nano-SIM) / Android 13 / 5000 мА * год",
+      "reviews": "{\"name\":\"rabenkod@ukr.net\",\"mail\":\"rabenkod@ukr.net\",\"text\":\"rabenkod@ukr.net\",\"rating\":{\"value\":5},\"date\":\"11-07-2023 20:01\"}",
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 2,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A24",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245flgvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245flgvsek-536251647?$1300_1038_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245flgvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245flgvsek-536251630?$684_547_PNG$"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 3,
+      "description": "Екран (6.5, Super AMOLED, 2340x1080) / Mediatek Helio G99 (2 x 2.6 ГГц + 6 x 2.0 ГГц) / основна потрійна камера: 50 Мп + 5 Мп + 2 Мп, фронтальна камера: 13 Мп / RAM2 ГБ вбудованої пам'яті + microSD (до 1 ТБ) / 3G / LTE / GPS / ГЛОНАСС / BDS / підтримка 2х SIM-карток (Nano-SIM) / Android 13 / 5000 мА * год",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 3,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A54",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fzkvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fzkvsek-536251666?$650_519_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fzkvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fzkvsek-536251649?$684_547_PNG$"
+      ],
+      "price": 17500,
+      "count": 50,
+      "rating": 3.2,
+      "description": "Экран (6.4, Super AMOLED, 2400x1080)/ samsungExynos 1380 (4 x 2.4 ГГц + 4 x 2.0 ГГц)/ основная тройная камера: 50 Мп + 12 Мп + 5 Мп, фронтальная 32 Мп/ RAM 6 ГБ/ 128 ГБ встроенной памяти + microSD (до 1 ТБ) / 3G / LTE / GPS / A-GPS / ГЛОНАСС / BDS / поддержка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*ч",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 4,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A54",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fdrvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fdrvsek-536251628?$1300_1038_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fdrvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fdrvsek-536251611?$684_547_PNG$"
+      ],
+      "price": 17500,
+      "count": 50,
+      "description": "Экран (6.4, Super AMOLED, 2400x1080)/ samsungExynos 1380 (4 x 2.4 ГГц + 4 x 2.0 ГГц)/ основная тройная камера: 50 Мп + 12 Мп + 5 Мп, фронтальная 32 Мп/ RAM 6 ГБ/ 128 ГБ встроенной памяти + microSD (до 1 ТБ) / 3G / LTE / GPS / A-GPS / ГЛОНАСС / BDS / поддержка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*ч",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "red",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 5,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone 14 128GB (MPUA3)",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-2.jpg"
+      ],
+      "price": 30500,
+      "count": 50,
+      "rating": 4,
+      "description": "Екран (6.1, OLED (Super Retina XDR), 2532x1170) / apple A15 Bionic / подвійна основна камера: 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / підтримка 2 SIM-карток (eSIM) / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 6,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone 14 128GB (MPUA3)",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/iphone-14-plus-yellow.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-2.jpg"
+      ],
+      "price": 30500,
+      "count": 50,
+      "rating": 5,
+      "description": "Екран (6.1, OLED (Super Retina XDR), 2532x1170) / apple A15 Bionic / подвійна основна камера: 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / підтримка 2 SIM-карток (eSIM) / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "gold",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 7,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone 14 Pro Max",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+      ],
+      "price": 50500,
+      "count": 50,
+      "rating": 4.2,
+      "description": "Екран (6.7, OLED (Super Retina XDR), 2796x1290) / apple A16 Bionic / основна квадро-камера: 48 Мп + 12 Мп + 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / Nano-SIM / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.7
+      }
+    },
+    {
+      "id": 8,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone14 Pro Max",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+      ],
+      "price": 50500,
+      "count": 50,
+      "rating": 4,
+      "description": "Екран (6.7, OLED (Super Retina XDR), 2796x1290) / apple A16 Bionic / основна квадро-камера: 48 Мп + 12 Мп + 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / Nano-SIM / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.7
+      }
+    },
+    {
+      "id": 9,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "xiomi",
+      "model": "Redmi Note 12S",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12s-11.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12s-2.jpg"
+      ],
+      "price": 9500,
+      "count": 70,
+      "rating": 2,
+      "description": "Екран (6.43, AMOLED, 2400x1080) / MediaTek Helio G96 (2.05 ГГц + 2.0 ГГц) / основна потрійна камера: 108 Мп + 8 Мп + 2 Мп, фронтальна 16 Мп / RAM 8 ГБ / 256 ГБ вбудованої пам'яті + microSD (до 1 ТБ ) / 3G / LTE / GPS / підтримка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*год",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 8,
+        "color": "blue",
+        "display": 6.3
+      }
+    },
+    {
+      "id": 10,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "asus",
+      "model": "Zenfone 9",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-9-0.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-9-2.jpg"
+      ],
+      "price": 29900,
+      "count": 20,
+      "rating": 4.1,
+      "description": "Екран (5.9, AMOLED, 2400x1080) / MediaTek Helio G96 (2.05 ГГц + 2.0 ГГц) / основна потрійна камера: 108 Мп + 8 Мп + 2 Мп, фронтальна 16 Мп / RAM 8 ГБ / 256 ГБ вбудованої пам'яті + microSD (до 1 ТБ ) / 3G / LTE / GPS / підтримка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*год",
+      "reviews": [],
+      "full_description": {
+        "memory": 256,
+        "op": 8,
+        "color": "gray",
+        "display": 5.9
+      }
+    },
+    {
+      "id": 101,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A24",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245flgvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245flgvsek-536251647?$1300_1038_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245flgvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245flgvsek-536251630?$684_547_PNG$"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 3,
+      "description": "Екран (6.5, Super AMOLED, 2340x1080) / Mediatek Helio G99 (2 x 2.6 ГГц + 6 x 2.0 ГГц) / основна потрійна камера: 50 Мп + 5 Мп + 2 Мп, фронтальна камера: 13 Мп / RAM2 ГБ вбудованої пам'яті + microSD (до 1 ТБ) / 3G / LTE / GPS / ГЛОНАСС / BDS / підтримка 2х SIM-карток (Nano-SIM) / Android 13 / 5000 мА * год",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 102,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A24",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fzkvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fzkvsek-536251666?$650_519_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fzkvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fzkvsek-536251649?$684_547_PNG$"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 2.9,
+      "description": "Екран (6.5, Super AMOLED, 2340x1080) / Mediatek Helio G99 (2 x 2.6 ГГц + 6 x 2.0 ГГц) / основна потрійна камера: 50 Мп + 5 Мп + 2 Мп, фронтальна камера: 13 Мп / RAM2 ГБ вбудованої пам'яті + microSD (до 1 ТБ) / 3G / LTE / GPS / ГЛОНАСС / BDS / підтримка 2х SIM-карток (Nano-SIM) / Android 13 / 5000 мА * год",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 103,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A54",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fzkvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fzkvsek-536251666?$650_519_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fzkvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fzkvsek-536251649?$684_547_PNG$"
+      ],
+      "price": 17500,
+      "count": 50,
+      "rating": 3,
+      "description": "Экран (6.4, Super AMOLED, 2400x1080)/ samsungExynos 1380 (4 x 2.4 ГГц + 4 x 2.0 ГГц)/ основная тройная камера: 50 Мп + 12 Мп + 5 Мп, фронтальная 32 Мп/ RAM 6 ГБ/ 128 ГБ встроенной памяти + microSD (до 1 ТБ) / 3G / LTE / GPS / A-GPS / ГЛОНАСС / BDS / поддержка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*ч",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 104,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "samsung",
+      "model": "Galaxy A54",
+      "img": [
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fdrvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fdrvsek-536251628?$1300_1038_PNG$",
+        "https://images.samsung.com/is/image/samsung/p6pim/ua/sm-a245fdrvsek/gallery/ua-galaxy-a24-sm-a245-sm-a245fdrvsek-536251611?$684_547_PNG$"
+      ],
+      "price": 17500,
+      "count": 50,
+      "rating": 3,
+      "description": "Экран (6.4, Super AMOLED, 2400x1080)/ samsungExynos 1380 (4 x 2.4 ГГц + 4 x 2.0 ГГц)/ основная тройная камера: 50 Мп + 12 Мп + 5 Мп, фронтальная 32 Мп/ RAM 6 ГБ/ 128 ГБ встроенной памяти + microSD (до 1 ТБ) / 3G / LTE / GPS / A-GPS / ГЛОНАСС / BDS / поддержка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*ч",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "red",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 105,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone 14 128GB (MPUA3)",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-2.jpg"
+      ],
+      "price": 30500,
+      "count": 50,
+      "rating": 3,
+      "description": "Екран (6.1, OLED (Super Retina XDR), 2532x1170) / apple A15 Bionic / подвійна основна камера: 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / підтримка 2 SIM-карток (eSIM) / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 106,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone 14 128GB (MPUA3)",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/iphone-14-plus-yellow.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-2.jpg"
+      ],
+      "price": 30500,
+      "count": 50,
+      "rating": 4.2,
+      "description": "Екран (6.1, OLED (Super Retina XDR), 2532x1170) / apple A15 Bionic / подвійна основна камера: 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / підтримка 2 SIM-карток (eSIM) / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "gold",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 107,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone 14 Pro Max",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+      ],
+      "price": 50500,
+      "count": 50,
+      "rating": 2.5,
+      "description": "Екран (6.7, OLED (Super Retina XDR), 2796x1290) / apple A16 Bionic / основна квадро-камера: 48 Мп + 12 Мп + 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / Nano-SIM / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.7
+      }
+    },
+    {
+      "id": 108,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "apple",
+      "model": "Iphone14 Pro Max",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+      ],
+      "price": 50500,
+      "count": 50,
+      "rating": 3,
+      "description": "Екран (6.7, OLED (Super Retina XDR), 2796x1290) / apple A16 Bionic / основна квадро-камера: 48 Мп + 12 Мп + 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / Nano-SIM / iOS 16",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.7
+      }
+    },
+    {
+      "id": 109,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "xiomi",
+      "model": "Redmi Note 12S",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12s-11.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12s-2.jpg"
+      ],
+      "price": 9500,
+      "count": 70,
+      "rating": 4,
+      "description": "Екран (6.43, AMOLED, 2400x1080) / MediaTek Helio G96 (2.05 ГГц + 2.0 ГГц) / основна потрійна камера: 108 Мп + 8 Мп + 2 Мп, фронтальна 16 Мп / RAM 8 ГБ / 256 ГБ вбудованої пам'яті + microSD (до 1 ТБ ) / 3G / LTE / GPS / підтримка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*год",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.7
+      }
+    },
+    {
+      "id": 110,
+      "category": "phones",
+      "type": "Мобільний телефон",
+      "brand": "asus",
+      "model": "Zenfone 9",
+      "img": [
+        "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-9-0.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-9-2.jpg"
+      ],
+      "price": 29900,
+      "count": 20,
+      "rating": 4.5,
+      "description": "Екран (5.9, AMOLED, 2400x1080) / MediaTek Helio G96 (2.05 ГГц + 2.0 ГГц) / основна потрійна камера: 108 Мп + 8 Мп + 2 Мп, фронтальна 16 Мп / RAM 8 ГБ / 256 ГБ вбудованої пам'яті + microSD (до 1 ТБ ) / 3G / LTE / GPS / підтримка 2х SIM-карт (Nano-SIM) / Android 13 / 5000 мА*год",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.7
+      }
+    },
+    {
+      "id": "21",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content2.rozetka.com.ua/goods/images/big/333734849.jpg"
+      ],
+      "price": 22000,
+      "count": 100,
+      "rating": 3,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "22",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 12500,
+      "count": 100,
+      "rating": 5,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "23",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 17500,
+      "count": 50,
+      "rating": 4,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "24",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 7500,
+      "count": 50,
+      "rating": 4.2,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "25",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 30500,
+      "count": 50,
+      "rating": 2.3,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "26",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 50000,
+      "count": 50,
+      "rating": 3.7,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "27",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 19500,
+      "count": 50,
+      "rating": 4,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "28",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 20500,
+      "count": 50,
+      "rating": 4.2,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "29",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 9500,
+      "count": 70,
+      "rating": 3.1,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "black",
+        "display": 6.1
+      }
+    },
+    {
+      "id": "210",
+      "category": "laptops",
+      "type": "Ноутбук",
+      "brand": "dell",
+      "model": "Inspiron 3511",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/144249716.jpg"
+      ],
+      "price": 29900,
+      "count": 20,
+      "rating": 4,
+      "description": "Екран 15.6” WVA (1920x1080) Full HD, матовий / Intel Core i5-1135G7 (2.4 - 4.2 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / вебкамера / Linux / 1.73 кг / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 256,
+        "op": 8,
+        "color": "gray",
+        "display": 5.9
+      }
+    },
+    {
+      "id": 31,
+      "category": "tv",
+      "type": "Телевізор",
+      "brand": "lg",
+      "model": "55UQ75006LF",
+      "img": [
+        "https://content.rozetka.com.ua/goods/images/big/314482007.jpg"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 5,
+      "description": "Діагональ екрана: 55, Роздільна здатність: 3840x2160, Підтримка Smart TV: з Smart TV, Бездротові можливості: Bluetooth, WI-Fi",
+      "reviews": [],
+      "full_description": [
+        {
+          "memory": 128,
+          "op": 6,
+          "color": "green",
+          "display": 6.1
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "category": "tablets",
+      "type": "Планшет",
+      "brand": "apple",
+      "model": "iPad 10.2 2021 Wi-Fi 64 GB Space Gray",
+      "img": [
+        "https://content2.rozetka.com.ua/goods/images/big/224009737.jpg"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 5,
+      "description": "Екран 10.2 IPS (2160x1620) MultiTouch / apple A13 Bionic (2.65 ГГц) / 64 ГБ вбудованої пам'яті / Wi-Fi / Bluetooth 4.2 / основна камера 8 Мп, фронтальна — 12 Мп / iPadOS 15 / 487 г / сірий космос",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 51,
+      "category": "pt",
+      "type": "Холодильник",
+      "brand": "samsung",
+      "model": "RB36T670FSA/UA",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/339733389.jpg"
+      ],
+      "price": 21000,
+      "count": 50,
+      "rating": 5,
+      "description": "Загальний обєм холодильника 375 л, Клас енергоспоживання: A, Корисний обєм холодильної камери: 248 л, Корисний об'єм морозильної камери: 112 л, Тип компресора: Інверторний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 61,
+      "category": "avpt",
+      "type": "Фотоапарт",
+      "brand": "canon",
+      "model": "EOS R 24-105 mm F4-7.1 IS STM Kit Black",
+      "img": [
+        "https://content2.rozetka.com.ua/goods/images/big/139379315.jpg"
+      ],
+      "price": 70000,
+      "count": 20,
+      "rating": 5,
+      "description": "Матриця 36 x 24 мм, 30.3 Мп / обєктив canon RF 24-105 mm F4-7.1 IS STM / підтримка карток пам'яті SD, SDHC, SDXC (UHS-I) / LCD-дисплей 3.15 / 4K-відео / живлення від літій-іонного акумулятора / 135.8 x 191.7 x 98.3 мм, 1360 г (з обєктивом, карткою пам'яті й акумулятором) / чорний",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 71,
+      "category": "orgt",
+      "type": "Принтер",
+      "brand": "epson",
+      "model": "EcoTank L3201 (C11CJ69402)",
+      "img": [
+        "https://content2.rozetka.com.ua/goods/images/big/323428543.jpg"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 5,
+      "description": "canon MF3010 – пристрій, який одноосібно може замінити принтер, сканер і ксерокс на робочому місці. Модель стане відмінним вибором для невеликої організації або офісу. canon MF3010 легко справляється з високим щоденним навантаженням, дозволяючи роздруковувати великі обсяги документів. Компактні, за мірками класу, габарити відкривають цілий ряд можливостей для розміщення БФП. canon MF3010 розумно витрачає тонер при друку, що робить його відмінною покупкою як з функціональної, так і з економічної точок зору.",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "id": 81,
+      "category": "accessories",
+      "type": "Чохол",
+      "brand": "armorStandart",
+      "model": "Icon2 Case для apple iPhone 13 Abyss Blue",
+      "img": [
+        "https://content1.rozetka.com.ua/goods/images/big/253086069.jpg"
+      ],
+      "price": 9500,
+      "count": 100,
+      "rating": 5,
+      "description": "У виготовленні чохла використовувалися преміальні матеріали — Liquid silicone, з Soft-Touch покриттям. М'яка підкладка з преміальної мікрофібри надійно захистить ваш ґаджет від подряпин, бруду та пилу. Чохол має ребра жорсткості, у такий спосіб телефон захищений з усіх боків. Додатковою перевагою є наявність бортів, що виступають над дисплеєм, і наявність додаткової пластикової рамки над задньою камерою, для додаткового захисту. У панелі передбачено всі потрібні вирізи та кнопки. Також, аксесуар не заважає використанню портів та інтерфейсів пристрою.",
+      "reviews": [],
+      "full_description": {
+        "memory": 128,
+        "op": 6,
+        "color": "green",
+        "display": 6.1
+      }
+    },
+    {
+      "data": "{\"name\":\"rabenkod@ukr.net\",\"mail\":\"rabenkod@ukr.net\",\"text\":\"rabenkod@ukr.net\",\"rating\":{\"value\":5},\"date\":\"11-07-2023 13:20\"}",
+      "id": "tJoPhCR"
+    },
+    {
+      "data": "{\"name\":\"rabenkod@ukr.net\",\"mail\":\"rabenkod@ukr.net\",\"text\":\"rabenkod@ukr.net\",\"rating\":{\"value\":5},\"date\":\"11-07-2023 13:20\"}",
+      "id": "PrXGHlE"
+    }
+  ],
+  "orders": [
+    {
+      "data": "{\"delivery\":\"Доставка Новою поштою\",\"paymant\":\"Оплата при отриманні\",\"name\":\"Джо Байден\",\"login\":\"white_house@ukr.net\",\"phone\":\" 38 (099) 911-00-00\",\"text\":\"м. Вашингтон, вул. Степана Бандери 77\",\"date\":\"10-07-2023 22:43\",\"order\":[{\"id\":\"21\",\"brand\":\"dell\",\"model\":\"Inspiron 3511\",\"quantity\":1},{\"id\":31,\"brand\":\"lg\",\"model\":\"55UQ75006LF\",\"quantity\":1}],\"totalValue\":\"31500\"}",
+      "id": 1
+    }
+  ],
+  "subscribers": [
+    {
+      "mail": "rabenkod@ukr.net",
+      "id": 1
+    }
+  ],
+  "callBack": [
+    {
+      "data": "{\"name\":\"11xzx\",\"phone\":\" 38 (065) 564-13-45\",\"text\":\"\",\"date\":\"26-07-2023 17:07\"}",
+      "id": 1
+    }
+  ],
+  "reviews": [
+    {
+      "data": "{\"name\":\"Дмитро\",\"mail\":\"rabenkod@ukr.net\",\"text\":\"Чудовий магазин. І головне, добре розроблений\",\"rating\":{\"value\":5},\"date\":\"05-07-2023 16:03\"}",
+      "id": 1
+    },
+    {
+      "data": "{\"name\":\"Дмитро\",\"mail\":\"user@ukr.net\",\"text\":\"Хороший магазин, розробник молодець\",\"rating\":{\"value\":5},\"date\":\"05-07-2023 16:04\"}",
+      "id": 2
+    },
+    {
+      "data": "{\"name\":\"Дмитро\",\"mail\":\"hr@ukr.net\",\"text\":\"Дійсно хороший магазин, та просто необхідно виділити його розробника. \\nЧудова робота!\",\"rating\":{\"value\":5},\"date\":\"05-07-2023 16:06\"}",
+      "id": 3
+    },
+    {
+      "data": "{\"name\":\"Тарас\",\"mail\":\"taras@gmail.com\",\"text\":\"Магазин Топ, як і розробник, який його створив!\\nРекомендую! (-_0)\",\"rating\":{\"value\":5},\"date\":\"05-07-2023 16:08\"}",
+      "id": 4
+    },
+    {
+      "data": "{\"name\":\"Alina\",\"mail\":\"mail@ukr.net\",\"text\":\"Сервіс хороший!\",\"rating\":{\"value\":5},\"date\":\"05-07-2023 16:11\"}",
+      "id": 5
+    },
+    {
+      "data": "{\"name\":\"Вікторія\",\"mail\":\"victiria_1@ukr.net\",\"text\":\"Хороший Магазин\",\"rating\":{\"value\":5},\"date\":\"05-07-2023 16:35\"}",
+      "id": 6
+    },
+    {
+      "data": "{\"name\":\"Nadia\",\"mail\":\"mafia@ukr.net\",\"text\":\"Відмінно! ......\",\"rating\":{\"value\":5},\"date\":\"05-07-2023 16:40\"}",
+      "id": 7
+    },
+    {
+      "data": "{\"name\":\"Степан\",\"mail\":\"stepan@ukr.net\",\"text\":\"Хороший магазин, ввічливі продавці\",\"rating\":{\"value\":4},\"date\":\"05-07-2023 16:46\"}",
+      "id": 8
+    },
+    {
+      "data": "{\"name\":\"Дмитро\",\"mail\":\"rabenkod@ukr.net\",\"text\":\"норм.........\",\"rating\":{\"value\":5},\"date\":\"10-07-2023 22:36\"}",
+      "id": 9
+    },
+    {
+      "data": "{\"name\":\"rabenkod@ukr.net\",\"mail\":\"rabenkod@ukr.net\",\"text\":\"rabenkod@ukr.net\",\"rating\":{\"value\":5},\"date\":\"11-07-2023 16:33\"}",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "data": "{\"login\":\"rabenkod@ukr.net\",\"password\":\"895678\",\"name\":\"Дмитро\",\"phone\":\" 38 (098) 889-98-88\"}",
+      "id": 1
+    },
+    {
+      "data": "{\"login\":\"rabenkod@ukr.net\",\"password\":\"rabenkod@ukr.net\",\"name\":\"rabenkod@ukr.net\",\"phone\":\" 38 (098) 889-98-88\",\"date\":\"10-07-2023 22:40\"}",
+      "id": 2
+    }
+  ]
+}

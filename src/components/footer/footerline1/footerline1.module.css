@@ -1,0 +1,178 @@
+.footerline1__container{
+    width: 100%;
+}   
+
+.footerline1__content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem .5rem;
+    font-size: .9rem;
+    color: var(--color__gray);
+}
+.footerline1__content>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 35%;
+}
+.centr{
+    width: 20%;
+}
+.right{
+    width: 25%;
+}
+
+
+/*left*/
+.footerline1__content h4{
+    font-size: 1.1rem;
+    margin-top: .5rem;
+
+}
+.footerline1__content a{
+    text-decoration: none;
+    color: var(--color__gray);
+}
+.footerline1__content a:hover{
+    text-decoration: underline;
+}
+.footerline1__content ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.footerline1__content p{
+    margin-bottom: .2rem;
+}
+
+
+
+
+
+
+
+
+
+.icon_container{
+    display: flex;
+    align-items: center;
+}
+
+
+.icon_container a{
+    margin-left: 1rem;
+    color: var(--color__gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon_container a>svg{
+    
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon_container a:hover{
+    color: var(--color__white);
+    border-radius: 50%;
+    background-color: var(--color__graybg);
+    box-shadow: 0 0 10px var(--color__gray);
+}
+
+
+
+
+/*right*/
+
+
+.right a{
+    display: block;
+    padding: 0 1.5rem;
+    font-size: 1.1rem;
+    position: relative;
+    width: fit-content;
+}
+
+.right a::before{
+    content: '';
+    width: 1.1rem;
+    height: 1.1rem;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    background-size: cover;
+}
+.vodafone::before{
+    background-image: url(../../../assets/vodafone.png);
+}
+.kyivstar::before{
+    background-image: url(../../../assets/kyivstar.svg);
+    top: 6px;
+}
+.life::before{
+    background-image: url(../../../assets/life.png);
+}
+.viber::before{
+    background-image: url(../../../assets/viber.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.telegram::before{
+    background-image: url(../../../assets/telegram.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.instargram::before{
+    background-image: url(../../../assets/instagram.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.mail::before{
+    background-image: url(../../../assets/mail.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+
+
+@media screen and (max-width: 992px){
+    .left{
+        display: none;
+    }
+    .centr{
+        width: auto;
+        max-width: 48%;
+    }
+    .right{
+        width: auto;
+        max-width: 48%;
+    }
+
+    .footerline1__content>div{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .right, .centr{
+        max-width: 100%;
+        text-align: center;
+    }
+    .right ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 480px){
+    .footerline1__content>div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

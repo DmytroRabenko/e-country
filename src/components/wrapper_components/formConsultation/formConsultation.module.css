@@ -1,0 +1,119 @@
+.form__container{
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 120;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, 70%);
+}
+.form{
+    position: relative;
+    padding: 1.5rem;
+    z-index: 100;
+    background-color: var(--color__white);
+    border: 1px solid var(--color__lightgray);
+    border-radius: 2rem;
+    box-shadow: 0px 0px 100px var(--color__gray);
+    color: var(--color__gray);
+    width: 350px;
+    color: var(--color__gray);
+}
+
+.form h4{
+    border-bottom: 1px solid var(--color__lightgray);
+    padding-bottom: .25rem;
+    font-weight: 400;
+}
+
+
+.input__container{
+    position: relative;
+}
+
+.input__container label{
+    position: absolute;
+    top: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.input__container label span{
+    color: var(--color__red);
+}
+
+
+.form input, .form textarea{
+    width: 100%;
+    padding: .25rem 1rem;
+    border: 1px solid var(--color__lightgray);
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    outline: none;
+}
+
+
+.form textarea{
+    height: 130px;
+    resize: none;
+    padding: .5rem;
+}
+.form textarea:focus, .form input:focus{
+    border: 1px solid var(--color__lightgreen);
+}
+.button{
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--color__lightgreen);
+    border: none;
+    color: black;
+    padding: .25rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    transition: all linear .2s;
+}
+.button svg{
+    margin-right: .5rem;
+}
+.button:hover{
+    background-color: var(--color__gray);
+    color: var(--color__white);
+}
+
+
+
+
+
+
+.error__div{
+    position: absolute;
+    
+    font-size: .9rem;
+    color: var(--color__red);
+    font-weight: 600;
+}
+.error__div>p{
+    margin-bottom: 0;
+}
+
+
+.close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .1rem .5rem;
+    border-radius: .5rem;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+.close:hover{
+    color: var(--color__white);
+    background-color: var(--color__gray);
+}

@@ -1,0 +1,34 @@
+/*navigation*/
+.navigation{
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.navigation>p{
+    margin-left: 3rem;
+    padding-left: .5rem;
+    border-bottom: 1px solid var(--color__lightgray);
+    border-left: 5px solid var(--color__lightgreen);
+}
+.navigation>div:nth-child(1){
+    width: 250px;
+    height: 3.5rem;
+}
+
+.navigation>div>div:nth-child(2){
+    display: none;
+    transition: all linear .2s;
+    z-index: 100;
+}
+
+.navigation>div:hover>div:nth-child(2){
+    display: block;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .navigation{
+        display: none;
+    }
+}

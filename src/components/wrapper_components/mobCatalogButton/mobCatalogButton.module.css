@@ -1,0 +1,29 @@
+.mob_navigation{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color__lightgreen);
+    padding-left: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    box-shadow: 0 0 15px var(--color__lightgray);
+    border-radius: .5rem;
+    border: none;
+    margin: 1rem;
+}
+.button svg{
+    margin-right: .5rem;
+}
+
+@media screen and (max-width: 768px){
+    .mob_navigation{
+        display: flex;
+    }
+}

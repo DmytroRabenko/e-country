@@ -1,0 +1,142 @@
+.form{
+    width: 100%;
+    margin: 1rem auto;
+    position: relative;
+    padding: 1.5rem;
+    z-index: 100;
+    background-color: var(--color__white);
+    border-radius: 1rem;
+    color: var(--color__gray);
+}
+
+.form h4{
+    border-bottom: 1px solid var(--color__lightgray);
+    padding-bottom: .25rem;
+    font-weight: 500;
+}
+.form h4>span{
+    border-bottom: 4px solid var(--color__lightgreen);
+    padding-right: .5rem;
+}
+
+.input__container label span{
+    color: var(--color__red);
+}
+
+
+.container__select, .container__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input__container{
+    width: 48%;
+    position: relative;
+}
+
+
+.container__textarea{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.form label{
+    position: absolute;
+    top: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+
+.form input, .form textarea, .form select{
+    width: 100%;
+    padding: .25rem 1rem;
+    border: 1px solid var(--color__lightgray);
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    outline: none;
+}
+
+
+.form textarea{
+    height: 130px;
+    resize: none;
+    padding: .5rem;
+}
+
+.form textarea:focus, .form input:focus{
+    border: 1px solid var(--color__lightgreen);
+}
+.button{
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--color__lightgreen);
+    border: none;
+    color: black;
+    padding: .25rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    transition: all linear .2s;
+}
+.button svg{
+    margin-right: .5rem;
+}
+.button:hover{
+    background-color: var(--color__gray);
+    color: var(--color__white);
+}
+
+
+
+
+
+
+.error__div{
+    position: absolute; 
+    font-size: .9rem;
+    color: var(--color__red);
+    font-weight: 600;
+}
+.error__div>p{
+    margin-bottom: 0;
+}
+
+
+.close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .1rem .5rem;
+    border-radius: .5rem;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+.close:hover{
+    color: var(--color__white);
+    background-color: var(--color__gray);
+}
+
+
+@media screen and (max-width: 992px){
+  
+}
+@media screen and (max-width: 768px){
+    .container__select, .container__input{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .input__container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    
+}

@@ -1,0 +1,57 @@
+
+.drop__button{
+    position: relative;
+    width: 130px;
+    z-index: 100;
+    transition: all linear .2s;
+}
+.drop__button svg{
+    color: var(--color__lightgray);
+    margin-left: 1rem;
+    transition: all linear .2s;
+}
+.select__header{
+    border: 1px solid var(--color__lightgray);
+    padding: .2rem .5rem;
+    border-radius: .5rem; 
+    cursor: pointer;
+    
+}
+.select__header:hover{
+    box-shadow: 0 0 20px var(--color__lightgray);
+    border: 1px solid var(--color__lightgreen);
+}
+.select__header:hover svg{
+    color: var(--color__lightgreen);
+}
+
+.select__body{
+    width: 200px;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    border: 1px solid var(--color__lightgray);
+    border-radius: .5rem;
+    background-color: var(--color__white);
+    padding: .2rem;
+    box-shadow: 0 0 20px var(--color__lightgray);
+}
+.select__body svg{
+    color: var(--color__lightgreen);
+    margin-left: 1.5rem;
+}
+
+.select__body>div{
+    padding: .1rem;
+}
+.select__body>div>span{
+    display: block;
+    width: 100%;
+    padding: .2rem .5rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+.select__body>div>span:hover{
+    background-color: var(--color__lightgray);
+
+}

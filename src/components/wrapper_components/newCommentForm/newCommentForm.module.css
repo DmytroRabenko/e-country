@@ -1,0 +1,114 @@
+
+.form__containet{
+    min-width: 350px;
+    width: 50%;
+    margin: 2rem auto;
+    position: relative;
+    border: 1px solid var(--color__lightgray);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.form__containet h4{
+    border-bottom: 1px solid var(--color__lightgray);
+}
+.top__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top__container .input__container{
+    width: 48%;
+    
+}
+.input__container, .textarea__container{
+    position: relative;
+}
+
+.input__container label, .textarea__container label{
+    position: absolute;
+    top: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.input__container label span, .textarea__container label span{
+    color: var(--color__red);
+}
+
+
+.input__container input, .textarea__container textarea{
+    width: 100%;
+    padding: .25rem 1rem;
+    border: 1px solid var(--color__lightgray);
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    outline: none;
+}
+
+
+
+.textarea__container textarea{
+    height: 130px;
+    resize: none;
+    padding: .5rem;
+}
+.textarea__container textarea:focus, .input__container input:focus{
+    border: 1px solid var(--color__lightgreen);
+}
+
+
+.error__div{
+    position: absolute;
+    top: 3.5rem;
+    
+    font-size: .9rem;
+    color: var(--color__red);
+    font-weight: 600;
+}
+.error__div>p{
+    margin-bottom: 0;
+}
+.textarea__container .error__div{
+    top: 9.5rem;
+}
+
+
+.rating__container{
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+}
+.rating__container>label{
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+
+
+.button{
+    max-width: 250px;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--color__lightgreen);
+    border: none;
+    color: black;
+    padding: .35rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    transition: all linear .2s;
+}
+.button svg{
+    margin-right: .5rem;
+}
+.button:hover{
+    background-color: var(--color__gray);
+    color: var(--color__white);
+}
+
+
+
+.message{
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,16 @@
+.changes p{
+   margin: 1rem 0;
+   text-indent: 1.5rem;
+}
+
+.changes h4{
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+.changes li{
+    list-style-type: decimal;
+    margin-left: 3rem;
+    margin-top: .5rem;
+}

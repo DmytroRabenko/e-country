@@ -1,0 +1,28 @@
+.logo a{
+    color: var(--color__gray);
+    width: 200px;
+    height: 110px;
+    background-image: url(../../../../assets/electronics-country-logo.png);
+    background-position: 0px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 2.6rem;
+    padding-top: .7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo span{
+    width: 70%;
+    font-size: .8rem;
+    text-transform: none;
+    text-align: left;
+    color: var(--color__gray);
+    margin-left: 1rem;
+}
+

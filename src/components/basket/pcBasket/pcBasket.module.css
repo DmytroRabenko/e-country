@@ -1,0 +1,61 @@
+
+.basket h2{
+    font-size: 1.8rem;
+}
+.basket tr th{
+    text-align: center;
+}
+.basket tr{
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--color__lightgray);
+}
+.basket tfoot td{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.basket__footer{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .button_toContinue, .button_toOrder{
+    padding: .7rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color__gray);
+    border: none;
+    border-radius: 1.5rem;
+    transition: all linear .2s;
+}
+
+.button_toContinue{
+    background-color: var(--color__lightgray); 
+}
+.button_toOrder{
+    background-color: var(--color__lightgreen);
+    text-decoration: none;
+}
+.button_toContinue:hover{
+    background-color: var(--color__gray);
+    color: var(--color__white);
+}
+.button_toOrder:hover{
+    background-color: var(--color__gray);
+    color: var(--color__white);
+}
+
+
+.close{
+    position: absolute;
+    top: .3rem;
+    right: 1rem;
+    padding: .1rem .5rem;
+    border-radius: .5rem;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+

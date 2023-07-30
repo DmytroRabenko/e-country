@@ -1,0 +1,22 @@
+.repair p{
+    margin: 1rem 0;
+    text-indent: 1.5rem;
+ }
+ 
+ .repair h4{
+     font-weight: 500;
+     font-size: 1.2rem;
+     padding: .5rem;
+ }
+ .repair h5{
+    margin-top: 2rem;
+     font-size: 1rem;
+ }
+
+
+.repair li{
+    list-style-type: decimal;
+    margin-left: 3rem;
+    margin-top: .5rem;
+}
+

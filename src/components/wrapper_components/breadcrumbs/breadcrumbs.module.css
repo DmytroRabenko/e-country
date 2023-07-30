@@ -1,0 +1,16 @@
+.crumbs{
+    padding: .5rem; 
+}
+.crumbs a{
+  text-decoration: none;
+}
+
+.breadcrumb_not_active {
+    color: #cccccc;
+  }
+  
+  .breadcrumb_active {
+    color: var(--color__gray);
+    cursor: auto;
+  }
+

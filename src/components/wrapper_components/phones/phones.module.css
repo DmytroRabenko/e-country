@@ -1,0 +1,35 @@
+.number{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5px;
+}
+
+.number a{
+  display: block;
+  padding: .3rem 1.5rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.number a::before{
+  content: '';
+  width: 1.1rem;
+  height: 1.1rem;
+  position: absolute;
+  left: 0px;
+  background-size: cover;
+}
+
+.vodafone::before{
+  background-image: url(../../../assets/vodafone.png);
+  top: 10px;
+}
+.kyivstar::before{
+  background-image: url(../../../assets/kyivstar.svg);
+  top: 8px;
+}
+.life::before{
+  background-image: url(../../../assets/life.png);
+  top: 10px;
+}

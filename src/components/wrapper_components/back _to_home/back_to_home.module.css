@@ -1,0 +1,26 @@
+.title{
+    margin-top: .5rem;
+}
+.toHome{
+    margin-top: 1rem;
+    width: 100%;
+    height: 4rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    color: var(--color__white);
+    background-color: var(--color__lightgreen);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all linear .2s;
+    text-decoration: none;
+}
+.toHome:hover{
+    background-color: var(--color__graybg);
+    box-shadow: 0 4px 11px rgba(51,62,72,.25);
+    color: var(--color__lightgreen);
+}
+
+
+.toHome svg:nth-child(2){
+    margin-left: 5rem;
+}

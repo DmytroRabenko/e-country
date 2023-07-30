@@ -1,0 +1,79 @@
+.footerline1__container{
+    width: 100%;
+    background-color: var(--color__footerbg2);
+    color: var(--color__gray);
+}   
+
+.footerline2__content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.cardslogo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem 1rem 3rem;
+    font-size: 1rem;
+}
+
+
+.visa, .master{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.visa{
+    background-image: url(../../..//assets/visa.svg);
+    background-size: 120%;
+    
+}
+.master{
+    background-image: url(../../../assets/mastercard.svg);
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .text{
+        width: auto;
+        max-width: 85%;
+        padding: 0;
+    }
+    .cardslogo{
+        width: auto;
+        max-width: 15%;
+        
+    }
+    .footerline2__content{
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footerline2__content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem;
+    }
+    .text{
+        max-width: 100%;
+        text-align: center;
+
+    }
+}
