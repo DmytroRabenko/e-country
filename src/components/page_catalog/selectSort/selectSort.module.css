@@ -1,7 +1,6 @@
 
 .drop__button{
     position: relative;
-    width: 130px;
     z-index: 100;
     transition: all linear .2s;
 }
