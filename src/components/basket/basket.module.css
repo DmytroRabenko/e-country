@@ -26,16 +26,9 @@
     overflow-y: auto;
 }
 
-.pcBasket{
-    width: auto;
-}
+
 .basket_content{
     width: auto;
-}
-
-
-.mobBasket{
-    display: none;
 }
 
 
@@ -62,14 +55,4 @@
     border: none;
     cursor: pointer;
     transition: all linear .2s;
-}
-
-@media screen and (max-width: 768px){
-    .pcBasket{
-        display: none;
-    }
-    .mobBasket{
-        display: block;
-    }
-
 }

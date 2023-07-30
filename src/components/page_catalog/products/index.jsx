@@ -9,9 +9,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSliders } from '@fortawesome/free-solid-svg-icons'
 import BackToHome from '../../wrapper_components/back _to_home';
 import Filter from '../filter';
+import { useMediaQuery } from 'react-responsive';
 import s from './products.module.css';   
 
 const Products = () => {
+    const isPc = useMediaQuery({ minWidth: 769});
     const[mobFilter, setMobFilter] = useState(false);
     const changeMobFilterVisible = () => {
         setMobFilter(!mobFilter);
@@ -45,12 +47,16 @@ const Products = () => {
         <div className={s.position}> 
  
             <div className={s.drop}>
+                {isPc && (
                     <div className={s.filer}>
                         <Filter changeFilter={changeFilter}/>
                     </div>
-                    
+                )}
+                
+                {!isPc && (
                     <button onClick={changeMobFilterVisible} className={s.filter_button}> <FontAwesomeIcon icon={faSliders} />Фільтр</button>
-                    <SelectSort changeSortValue={changeSortValue}/>
+                )}
+                <SelectSort changeSortValue={changeSortValue}/>
             </div>
             {mobFilter &&(
                 <div className={s.filter_mobile}>

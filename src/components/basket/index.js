@@ -4,12 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faX } from '@fortawesome/free-solid-svg-icons'
 import {basketVisible} from '../../store/storeSlice'
 import { useClickOutside } from '../../hooks';
+import { useMediaQuery } from 'react-responsive';
 import PCBasket from './pcBasket';
 import MobBasket from '../basket/mobBasket';
 import s from'./basket.module.css';
 
-
 const Basket = () => {
+    const isPc = useMediaQuery({ minWidth: 769});
+
     const basketProducts = useSelector(state => state.store.basket);
 
     const dispatch = useDispatch(basketVisible);
@@ -35,16 +37,14 @@ const Basket = () => {
 
                 {basketProducts.length > 0 ? 
                     <div className={s.basket_content}>
-                        <div className={s.pcBasket}>
+                        {isPc &&(
                             <PCBasket data={basketProducts} totalValue={totalValue} changebasketVisible={changebasketVisible} />
-                        </div>   
-                    
-                        <div className={s.mobBasket}>
+                        )}
+                        {!isPc &&(
                             <MobBasket data={basketProducts} totalValue={totalValue} changebasketVisible={changebasketVisible} />
-                        </div>    
+                        )}    
                     </div>
                     :
-
                     <div className={s.basket__message}>
                         <h2><span>Кошик</span></h2>
                         <span>Ваш кошик порожній</span>

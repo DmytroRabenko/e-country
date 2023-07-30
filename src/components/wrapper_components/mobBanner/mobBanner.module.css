@@ -1,9 +1,10 @@
-.banner{
-    margin-top: 5rem;
+.mob_banner{
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
     width: 230px;
     height: 300px;
     border-radius: 1rem;
-    position: relative;
     z-index: 120;
     background: var(--color__lightgreen) url(../../../assets/laptop-png-6778.png);
     background-size: contain;
@@ -11,7 +12,7 @@
     background-position: center;
     cursor: pointer;
 
-    transform: translateX(-1000vw);
+    transform: translateX(-200%);
     animation-name: animation__1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -44,4 +45,15 @@
 }
 .content span{
     display: block;
+}
+
+
+
+.close{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: .75rem;
+    top: .75rem;
+    z-index: 130;
 }

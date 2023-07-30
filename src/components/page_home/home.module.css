@@ -93,10 +93,7 @@
 }
 .mackbook_card {
     background-image: url(../../assets/apple-macbook_card.jpg);
-
 }
-
-
 
 .text{
     margin: 2rem 0;
@@ -127,16 +124,9 @@
 }
 
 
-
 @media screen and (max-width: 992px){
     .recomended{
         grid-template-columns: repeat(2, 2fr);
-    }
-}
-
-@media screen and (max-width: 768px){
-    .navigation{
-       display: none;
     }
 }
 

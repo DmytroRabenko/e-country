@@ -20,22 +20,16 @@
     font-size: 2rem;
     padding: .3rem .8rem;
     background-color: inherit;
-    display: none;
 }
 
 
 @media screen and (max-width: 768px){
-    .buttonOpen{
-        display: block;
-    }
     .container{
         background-color: var(--color__lightgreen);
     }
     .container>div:nth-child(1){
         min-width: 60%;
     }
-    .container>div:nth-child(3){
-        display: none;
-    }
+
 }
 

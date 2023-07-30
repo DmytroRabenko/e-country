@@ -5,22 +5,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import ButtonsWrapper from './buttonsWrapper';
 import Phones from '../../wrapper_components/phones';
-import Search from './search'
+import Search from './search';
+import { useMediaQuery } from 'react-responsive';
 import s from './headerLine2.module.css';
 
-function HeaderLine2 () {
+const HeaderLine2 = () => {
+    const isPc = useMediaQuery({ minWidth: 769});
     return(
         <div className={s.header__line2}>    
             <div className={s.container}> 
-                <Logo/>
+                {isPc && (
+                    <Logo/>
+                )}
                 <div className={s.content}>
-                    <div className={s.number}>
-                        <Phones/>
-                    </div>
+                    {isPc && (
+                        <div className={s.number}>
+                            <Phones/>
+                        </div>
+                    )}
                     <div className={s.line2}>
                         <div className={s.search}>
                             <Search/>
-                            <Link to={'/about_us'}><FontAwesomeIcon icon={faThumbsUp} />Відгуки</Link>
+                            {isPc && (
+                                <Link to={'/about_us'}><FontAwesomeIcon icon={faThumbsUp} />Відгуки</Link>
+                            )} 
                         </div>
                         <div>
                             <ButtonsWrapper/>

@@ -3,18 +3,31 @@ import { Link } from 'react-router-dom';
 import Title from '../wrapper_components/title'
 import Navigation from '../navigation';
 import HomeCarousel from './carousel';
+import { useMediaQuery } from 'react-responsive';
 import Banner from '../wrapper_components/banner';
+import MobBanner from '../wrapper_components/mobBanner';
 import s from'./home.module.css';
 
 
 const Home = () => {
+    const isPc = useMediaQuery({ minWidth: 769});
+
+    const[mobBannerOpen, setMobBannerOpen] = useState(false);
+    const changeOpenBanner = () => {
+        setMobBannerOpen(!mobBannerOpen);
+    }
+    useEffect(() => {
+        const timer = setTimeout(changeOpenBanner, 5000);
+        return () => clearTimeout(timer);
+        // eslint-disable-next-line
+      }, []);
+
 
     const[bannerOpen, setBannerOpen] = useState(false);
     const [scroll, setScroll] = useState(0);
     const handleScroll = () => {
       setScroll(window.scrollY);
     };
-  
     useEffect(() => {
       window.addEventListener("scroll", handleScroll);
       if(scroll > 300){setBannerOpen(true)};
@@ -24,12 +37,14 @@ const Home = () => {
     return(
         <>
             <div className={s.home__page}>
-                <div className={s.navigation}>
-                    <Navigation/>
-                    {bannerOpen &&(
+                {isPc && (
+                    <div className={s.navigation}>
+                        <Navigation/>
+                        {bannerOpen &&(
                         <Banner/>
-                    )}
-                </div>
+                        )}
+                    </div>
+                )}
                 <section className={s.content} >
                     <div className={s.carousel}>
                         <HomeCarousel/>
@@ -74,8 +89,11 @@ const Home = () => {
                 </p>
 
                 <p className={s.paragraph}>Додатковими перевагами нашого <strong>інтернет магазину техніки</strong> являється можливість купівлі в кредит, наявність сервісу по ремонту і програма обміну старого гаджета на новий пристрій.</p>
-                
             </div>
+
+            {(mobBannerOpen && !isPc)&&(
+                <MobBanner changeOpenBanner={changeOpenBanner}/>
+            )}
         </>
     )
 }

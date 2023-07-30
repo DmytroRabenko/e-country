@@ -1,5 +1,6 @@
 .basket{
     width: 100%;
+    overflow: auto;
 }
 
 .basket>h2>span{

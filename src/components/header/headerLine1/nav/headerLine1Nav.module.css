@@ -49,11 +49,3 @@ color: var(--color__lightgreen);
         padding: .5rem 1rem;
     }
 }
-@media screen and (max-width: 768px){
-    .header__line1__nav{
-        display: none;
-    }
-}
-@media screen and (max-width: 480px){
- 
-}

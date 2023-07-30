@@ -32,7 +32,6 @@
     padding: .2rem .5rem;
     border-radius: .5rem; 
     cursor: pointer;
-    display: none;
 }
 .filter_button svg{
     margin-right: .5rem;
@@ -65,19 +64,10 @@
     .products__container{
         grid-template-columns: repeat(2, 2fr);
     }
-    .filer{
-        display: none;
-    }
     .drop{
         justify-content: space-between;
     }
-    .filter_button{
-        display: block;
-    }
-
-
 }
-
 
 @media screen and (max-width: 480px){
     .products__container{

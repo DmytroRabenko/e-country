@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 240px 1fr;
 }
-
 .navigation{
     width: 100%;
 }
@@ -17,12 +16,7 @@
 }
 
 
-
-
 @media screen and (max-width: 768px){
-    .navigation{
-        display: none;
-    }
     .container{
         margin: 0 1rem;
         display: grid;

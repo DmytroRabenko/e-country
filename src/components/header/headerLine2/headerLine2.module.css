@@ -48,20 +48,11 @@
        min-height: auto;
        padding: .5rem .5rem 0;
     }
-    .container>div:nth-child(1){
-        display: none;
-    }
     .search{
         width: 50%;
-    }
-    .search>a{
-       display: none;
     }
     .content{
         padding:0 ;
         margin: 0;
-    }
-    .number{
-        display: none;
     }
 }
