@@ -1,19 +1,6 @@
-/*
-    const data = async(url) => {
-        const data1 = await fetch(url)
-        return await data1.json()
-    }
-*/
-/*
- 
-    let promice = fetch('https://jsonplaceholder.typicode.com/posts')
-        promice.then(response => response.json())
-        .then(data => console.log(data));
-*/
-
 class Service{
 
-    _linkDb = 'http://localhost:3000/'
+    _linkDb = 'https://electronics-country-9aa018221dc1.herokuapp.com/api/'
 
     async getProducts (link) {
         const data = await fetch(`${this._linkDb}${link}`);
