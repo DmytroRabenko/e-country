@@ -12,6 +12,7 @@ import Compared from '../page_compared';
 import Selected from '../page_selected';
 import Order from '../page_order';
 import ProductPage from '../page_catalog/productPage';
+import ScrollToTop from '../wrapper_components/scrollToTop';
 import './app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +21,8 @@ function App() {
 
     return (   
         <BrowserRouter>
-            <Routes>
+            <ScrollToTop/>
+            <Routes> 
                 <Route path='/' element={<Layout/>}>     
                     <Route index element={<Home/>}/>
                     <Route path="about_us" element={<AboutUs/>}/>

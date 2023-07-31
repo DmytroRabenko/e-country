@@ -1,0 +1,130 @@
+
+.icon_container a>svg{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+}
+
+.icon_container a:hover{
+    color: var(--color__white);
+    border-radius: 50%;
+    background-color: var(--color__graybg);
+    box-shadow: 0 0 10px var(--color__gray);
+}
+
+
+.links a{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: .5rem;
+    margin: 1rem 0;
+    border-bottom: 1px solid var(--color__lightgray);
+}
+.links a span{
+    padding-left: .5rem;
+    border-left: 5px solid var(--color__lightgreen);
+}
+
+
+.contacts a{
+    display: block;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+    position: relative;
+    width: fit-content;
+}
+
+.contacts a::before{
+    content: '';
+    width: 1.4rem;
+    height: 1.4rem;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    background-size: cover;
+}
+.vodafone::before{
+    background-image: url(../../../../assets/vodafone.png);
+}
+.kyivstar::before{
+    background-image: url(../../../../assets/kyivstar.svg);
+    top: 6px;
+}
+.life::before{
+    background-image: url(../../../../assets/life.png);
+}
+.viber::before{
+    background-image: url(../../../../assets/viber.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.telegram::before{
+    background-image: url(../../../../assets/telegram.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.instargram::before{
+    background-image: url(../../../../assets/instagram.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.mail::before{
+    background-image: url(../../../../assets/mail.svg);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.button{
+    background-color: #f5f5f5;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color__gray);
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #d3dae0;
+    transition: all linear .3s;
+    z-index: 2;
+   
+}
+
+.menu{
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    animation: show  ease .5s;
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+
+.menu .section{
+    border-bottom: 1px solid var(--color__lightgray);
+}
+.menu .section:nth-child(2){
+    margin: 1rem 0;
+}
+.menu .section:nth-child(3){
+    border-bottom: none;
+}
+.menu .section h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}

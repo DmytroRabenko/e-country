@@ -159,20 +159,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .right, .centr{
-        max-width: 100%;
-        text-align: center;
-    }
-    .right ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media screen and (max-width: 480px){
-    .footerline1__content>div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .footerline1__content{
+        padding: 0;
     }
 }
