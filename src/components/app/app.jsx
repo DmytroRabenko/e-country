@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Layout from '../layout/Layout';
 import Home from '../page_home'
 import AboutUs from '../page_aboutUs';
@@ -17,10 +17,10 @@ import './app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function App() { 
+const App = () => { 
 
     return (   
-        <BrowserRouter>
+        <HashRouter>
             <ScrollToTop/>
             <Routes> 
                 <Route path='/' element={<Layout/>}>     
@@ -38,7 +38,7 @@ function App() {
                     <Route path="/:category/:brand/:id" element={<ProductPage />}/>
                 </Route>      
             </Routes> 
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
