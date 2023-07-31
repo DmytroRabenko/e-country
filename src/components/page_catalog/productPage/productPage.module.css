@@ -138,7 +138,22 @@
     font-size: .6rem;
 }
 
-
+.credit_description{
+    padding: 1rem 0;
+}
+.credit_description .title{
+    display: block;
+    padding-left: .5rem;
+    border-bottom: 1px solid var(--color__lightgray);
+    border-left: 5px solid var(--color__lightgreen);
+}
+.credit_description p{
+    font-weight: 400;
+}
+.credit_description a{
+    color: var(--color__blue);
+    text-decoration: none;
+}
 
 @media screen and (max-width: 992px){
     .product__page{

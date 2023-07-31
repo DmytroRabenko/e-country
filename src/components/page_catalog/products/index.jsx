@@ -40,6 +40,7 @@ const Products = () => {
         new Service().getProducts(`catalog?category=${category}${brand ? `&brand=${brand}` : ''}&_page=${page}${sortValue}${filter}`)
         .then(data => setData(data));
         setQty(2);
+        setMobFilter(false);
         // eslint-disable-next-line
     }, [category, brand, page, sortValue, filter]);
 
@@ -52,7 +53,6 @@ const Products = () => {
                         <Filter changeFilter={changeFilter}/>
                     </div>
                 )}
-                
                 {!isPc && (
                     <button onClick={changeMobFilterVisible} className={s.filter_button}> <FontAwesomeIcon icon={faSliders} />Фільтр</button>
                 )}

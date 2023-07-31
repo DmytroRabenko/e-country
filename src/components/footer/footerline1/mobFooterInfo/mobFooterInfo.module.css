@@ -100,12 +100,13 @@
     font-size: 1.4rem;
     padding: 1.5rem;
     animation: show  ease .5s;
+    overflow: hidden;
 }
 
 @keyframes show {
     0%{
         opacity: 0;
-        transform: translateY(-100%);
+        transform: translateY(-100px);
     }
   
     100% {

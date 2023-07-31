@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { useSelector, useDispatch} from 'react-redux';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCartArrowDown, faCodeCompare, faPhoneVolume, faCheck} from '@fortawesome/free-solid-svg-icons';
 import {faHeart} from '@fortawesome/free-regular-svg-icons';
@@ -12,8 +13,10 @@ import Title from '../../wrapper_components/title'
 import Comments from '../../wrapper_components/comments';
 import NewProductCommentForm from '../newProductCommentForm';
 import NavigationHide from '../../navigation/navigationHide';
-import s from './productPage.module.css';  
+ 
+import ProductGalary from './productGalary';
 
+import s from './productPage.module.css'; 
 const ProductPage = () =>{
     const dispatch = useDispatch(addToBasket, addToSelected, addToCompared, formVisible, removeFromBasket, removeFromSelected,  removeFromCompared);
     const[product, setProduct] = useState(null);
@@ -56,8 +59,10 @@ const ProductPage = () =>{
 
                     <div className={s.main}>
                         <div className={s.left_site}>
+                            
                             <div className={s.img_container}>
-                                <img src={product[0].img} alt={product[0].model}/>
+                                <ProductGalary images={product[0].img}/>
+                                
                             </div>
                             <div className={s.descr}>
                                 <p>Характеристики пристрою наведені для ознайомлення. Детальні технічні специфікації уточнюйте у менеджера. Колір вироби на фотографії може відрізнятися від реального. Виробник залишає за собою право вносити зміни в комплектацію, технічне і програмне забезпечення товару без попереднього повідомлення. Магазин не несе відповідальність за зміни, внесені виробником!</p>
@@ -119,6 +124,11 @@ const ProductPage = () =>{
                                     <button onClick={() => dispatch(formVisible())} className={s.callm}><FontAwesomeIcon icon={faPhoneVolume} />Передзвоніть мені</button> 
                                 </Tooltip>
                             </div>
+                            <div className={s.credit_description}>
+                                <span className={s.title}>Кредит</span>
+                                <p>За необхідності ви можете придбати <strong>{product[0].brand} {product[0].model}</strong> оформивши кредит в Банку-партнері нашого магазину</p>
+                                <Link to={'/credit'}>детальніше про кредит</Link>
+                            </div>
                         </div>
                     </div>         
             </>
@@ -135,4 +145,4 @@ const ProductPage = () =>{
     
 
 export default ProductPage;
-
+//<img src={product[0].img} alt={product[0].model}/>
