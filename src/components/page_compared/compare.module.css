@@ -39,11 +39,15 @@
     border: 1px solid var(--color__lightgray);
     border-radius: 1rem;
 }
-
 .compared__card>div>div:nth-child(5){
     display: block;
 }
-
+.compared__card>div:hover{
+    min-height: 500px;
+}
+.compared__card>div:hover>div:nth-child(5){
+    display: block;
+}
 
 
 .delete{

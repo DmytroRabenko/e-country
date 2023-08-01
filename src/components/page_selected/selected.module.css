@@ -12,13 +12,16 @@
 }
 
 .selected__card>div{
-    min-height: 500px;
     border: 1px solid var(--color__lightgray);
     border-radius: 1rem;
 }
 
-.selected__card>div>div:nth-child(5){
-    display: block;
+.selected__card>div:hover{
+    box-shadow: none;
+    min-height: 320px;
+}
+.selected__card>div:hover>div:nth-child(5){
+    display: none;
 }
 
 .delete{

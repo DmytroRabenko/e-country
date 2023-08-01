@@ -6,10 +6,11 @@ import s from'./back_to_home.module.css';
 
 const BackToHome = ({text}) => {
     return(
-        <>
-        <h4 className={s.title}>{text}</h4> 
-        <Link className={s.toHome} to='/'>Повернутись в головне меню  <FontAwesomeIcon icon={faArrowRight} /> <FontAwesomeIcon icon={faHouse} /></Link>
-        </>
+        <div className={s.toHome}>
+        <h4 className={s.title}>{text}</h4>
+        <button><Link to='/'>Повернутись в головне меню <FontAwesomeIcon icon={faHouse} /></Link></button>
+       
+        </div>
     )
 }
 export default BackToHome;

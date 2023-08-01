@@ -2,11 +2,22 @@
     margin-top: .5rem;
 }
 .toHome{
+    width: 200px;
+    text-align: left;
+}
+
+.toHome button{
     margin-top: 1rem;
     width: 100%;
-    height: 4rem;
-    padding: .5rem 1rem;
+    border: none;
     border-radius: 1rem;
+    overflow: hidden;
+    
+}
+.toHome button a{
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem;
     color: var(--color__white);
     background-color: var(--color__lightgreen);
     cursor: pointer;
@@ -14,13 +25,9 @@
     transition: all linear .2s;
     text-decoration: none;
 }
-.toHome:hover{
+.toHome button a:hover{
     background-color: var(--color__graybg);
     box-shadow: 0 4px 11px rgba(51,62,72,.25);
     color: var(--color__lightgreen);
 }
 
-
-.toHome svg:nth-child(2){
-    margin-left: 5rem;
-}

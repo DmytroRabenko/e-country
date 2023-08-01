@@ -21,6 +21,7 @@
 }
 .cursor{
     cursor: default;
+    width: 100%;
 }
 .product__card:hover{
     box-shadow: 0 0 10px  #323131;
@@ -47,7 +48,6 @@
     justify-content: center;
     overflow: hidden;
     cursor: pointer;
-    
 }
 .photo div img{
     max-width: 90%;
