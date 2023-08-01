@@ -32,13 +32,14 @@ const ProductGalary = ({ images }) =>{
             <div className={s.imageGalary}>
                 {(Array.isArray(images) && images.length > 0) && (
                     images.map((image, index) => (
-                        <div className={s.smallImg} key={index}>
-                            <img
+                        <div className={index === activeImageIndex ? `${s.active}` : ''} key={index}>
+                            <img 
+                                className={s.smallImg}
                                 key={index}
                                 src={image}
                                 alt={`Product ${index}`}
                                 onClick={() => handleImageClick(index)}
-                                className={index === activeImageIndex ? `${s.active}` : ''}
+                                
                             />
                         </div>
                     ))
