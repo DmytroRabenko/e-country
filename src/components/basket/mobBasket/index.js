@@ -20,7 +20,7 @@ const MobBasket = ({data, totalValue, changebasketVisible}) => {
                     <div className={s.product} key={item.product.id}>
                                 
                         <div className={s.product__img}>
-                            <img src={item.product.img} alt='img'/> 
+                            <img src={Array.isArray(item.product.img) ? item.product.img[0] : item.product.img} alt='img'/> 
                         </div>
                         <div className={s.info}>
                             <div className={s.product__name} onClick={changebasketVisible}><Link onClick={() => dispatch(updateCurrentPage(item.product))} to={`/${item.product.category}/${item.product.brand}/${item.product.id}`}>{item.product.brand} {item.product.model}</Link></div>
