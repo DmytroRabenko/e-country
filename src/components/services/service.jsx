@@ -1,6 +1,6 @@
 class Service{
 
-    _linkDb = 'https://e-country-bwdpgl7yb-dmytrorabenkos-projects.vercel.app/'
+    _linkDb = 'https://fake-data-e-country.vercel.app//'
 
     async getProducts (link) {
         const data = await fetch(`${this._linkDb}${link}`);
