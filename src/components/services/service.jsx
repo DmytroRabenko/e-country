@@ -1,6 +1,6 @@
 class Service{
 
-    _linkDb = 'https://electronics-country-9aa018221dc1.herokuapp.com/api/'
+    _linkDb = 'https://e-country-bwdpgl7yb-dmytrorabenkos-projects.vercel.app/'
 
     async getProducts (link) {
         const data = await fetch(`${this._linkDb}${link}`);
